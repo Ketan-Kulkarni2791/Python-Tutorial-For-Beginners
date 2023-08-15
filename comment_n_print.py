@@ -20,3 +20,25 @@ print("Hello World \n Hello Ji World")
 print("Hello 'Ji' World")   # o/p --> Hello 'Ji' World
 print('Hello \'Ji\' World') # o/p --> Hello 'Ji' World
 
+# Print Statements
+print("Hello World!")       # o/p --> Hello World!
+
+print(45896)                # o/p --> 45896
+
+print(bool(0))              # o/p --> False
+
+print("Ketan", 'Kulkarni', sep='_')     # o/p --> Ketan_Kulkarni
+
+print("Ketan", end='__')
+print("Kulkarni")           # o/p --> Ketan__Kulkarni
+
+print(print("Hello World"))
+# o/p --> Hello World
+#         None
+
+print(print(print(print(123))))
+# o/p --> 123
+#         None
+#         None
+#         None
+

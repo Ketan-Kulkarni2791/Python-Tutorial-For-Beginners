@@ -16,9 +16,12 @@ print("Hello World \n Hello Ji World")
 # o/p --> Hello World
 #          Hello Ji World
 
+# \t -- tab
+print("Hello World\tHello Ji world")      # o/p --> Hello World     Hello Ji world
+
 # \' -- Single quote
 print("Hello 'Ji' World")   # o/p --> Hello 'Ji' World
-print('Hello \'Ji\' World') # o/p --> Hello 'Ji' World
+print('Hello \'Ji\' World') # o/p --> Hello 'Ji' World  David O'Brian
 
 # Print Statements
 print("Hello World!")       # o/p --> Hello World!
@@ -42,3 +45,28 @@ print(print(print(print(123))))
 #         None
 #         None
 
+var = print("Shobha Tripathy Hello World")
+print(var)
+# o/p -- Shobha Tripathy Hello World
+#        None
+
+# **********************************************************************
+
+# def bool() -> bool:
+#     """_summary_
+
+#     Returns:
+#         bool: values
+#     """
+#     return bool
+
+# var = bool()
+# print(var)
+
+
+# def print() -> None:
+#     """_summary_
+#     """
+
+# var = print("gjhdlkgj")
+# print(var)      # o/p -- none

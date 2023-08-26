@@ -53,20 +53,4 @@ print(var)
 # **********************************************************************
 
 # def bool() -> bool:
-#     """_summary_
-
-#     Returns:
-#         bool: values
 #     """
-#     return bool
-
-# var = bool()
-# print(var)
-
-
-# def print() -> None:
-#     """_summary_
-#     """
-
-# var = print("gjhdlkgj")
-# print(var)      # o/p -- none

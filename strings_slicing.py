@@ -6,6 +6,8 @@ print(myStr[:9])
 
 print(myStr[4:])
 
+print(myStr[:])
+
 print(myStr[4:len(myStr)])
 
 print(myStr[:len(myStr)] + myStr[len(myStr):])

@@ -21,3 +21,9 @@ print(myStr.isalnum())              # o/p : False
 myStr = "Hello123World"
 print(myStr.isalnum())              # o/p : True
 
+# ------------------ split() ------------------
+myStr = "Python is a popular popular programming language!!"
+print(myStr.split())                # o/p : ['Python', 'is', 'a', 'popular', 'popular', 'programming', 'language!!']
+
+myStr = "Hello, world, what's, up"
+print(myStr.split(','))             # o/p : ['Hello', ' world', " what's", ' up']

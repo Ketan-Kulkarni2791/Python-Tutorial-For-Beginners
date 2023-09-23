@@ -1,14 +1,15 @@
 # ------------------ capitalize() ------------------
-myStr = "heLLo WORLd"
-print(myStr.capitalize())           # o/p : Hello world
+# myStr = "heLLo WORLd"
+# myStr = "Hello world"
+# print(myStr.capitalize())           # o/p : Hello world
 
-# ------------------ casefold() ------------------
-myStr = "I LOVe PYThon"
-print(myStr.casefold())             # o/p : i love python
+# # ------------------ casefold() ------------------
+# myStr = "I LOVe PYThon"
+# print(myStr.casefold())             # o/p : i love python
 
 # ------------------ count() ------------------
 myStr = "Python is a popular popular programming language!!"
-print(myStr.count('p'))             # o/p : 3
+print(myStr.count('p'))             # o/p : 5
 print(myStr.count('popular'))       # o/p : 2
 
 # ------------------ find() ------------------

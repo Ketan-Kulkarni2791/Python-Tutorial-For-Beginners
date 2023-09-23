@@ -16,8 +16,10 @@ i = 10
 
 if i < 15:
     print("Less than 15")
-    if 1 < 12:
+    if i < 12:
         print("Less than 12 too")
+    else:
+        pass
 else:
     print("Greater than 15")
 

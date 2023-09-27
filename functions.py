@@ -75,3 +75,27 @@ def myFun(**kwargs):
 
 # Driver code
 myFun(first='Hello', mid='MF', last='World')
+
+
+#### Python program to demonstrate accessing of variables of nested functions
+ 
+def f1():
+    s = 'I love Python'
+     
+    def f2():
+        print(s)
+         
+    f2()
+ 
+# Driver's code
+f1()
+
+#### Python Return Statement
+def square_value(num):
+    """This function returns the square value of the entered number"""
+    return num**2
+ 
+ 
+print(square_value(2))
+print(square_value(-4))
+

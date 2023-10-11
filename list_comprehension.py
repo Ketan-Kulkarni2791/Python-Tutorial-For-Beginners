@@ -22,3 +22,8 @@ def get_price_with_tax(txn):
     return txn * (1 + TAX_RATE)
 final_prices = [get_price_with_tax(i) for i in txns]
 print(final_prices)
+
+
+sentence = "India's Chandrayan-3 mission is an huge success!"
+vowels = [i for i in sentence if i in 'aeiou']
+print(vowels)

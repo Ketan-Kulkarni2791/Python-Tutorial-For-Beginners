@@ -27,3 +27,11 @@ print(final_prices)
 sentence = "India's Chandrayan-3 mission is an huge success!"
 vowels = [i for i in sentence if i in 'aeiou']
 print(vowels)
+
+
+sentence = 'The rocket, who was named Chandrayan-3, came back from Moon because he missed his friends.'
+def is_consonant(letter):
+    vowels = 'aeiou'
+    return letter.isalpha() and letter.lower() not in vowels
+consonants = [i for i in sentence if is_consonant(i)]
+print(consonants)

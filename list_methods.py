@@ -174,3 +174,53 @@ print('Updated List:', languages)
 #      Updated List: ['Java', 'C++']
 
 
+# ------------------------------- reverse() -------------------------------------
+
+
+# Operating System List
+systems = ['Windows', 'macOS', 'Linux']
+print('Original List:', systems)
+# List Reverse
+systems.reverse()
+# updated list
+print('Updated List:', systems)
+
+
+# Operating System List
+systems = ['Windows', 'macOS', 'Linux']
+print('Original List:', systems)
+# Reversing a list	
+# Syntax: reversed_list = systems[start:stop:step] 
+reversed_list = systems[::-1]
+# updated list
+print('Updated List:', reversed_list)
+
+
+# Operating System List
+systems = ['Windows', 'macOS', 'Linux']
+# Printing Elements in Reversed Order
+for o in reversed(systems):
+    print(o)
+    
+
+# ------------------------------- sort() -------------------------------------
+
+
+# vowels list
+vowels = ['e', 'a', 'u', 'o', 'i']
+# sort the vowels
+vowels.sort()
+# print vowels
+print('Sorted list:', vowels)
+# o/p: Sorted list: ['a', 'e', 'i', 'o', 'u']
+
+
+# vowels list
+vowels = ['e', 'a', 'u', 'o', 'i']
+# sort the vowels
+vowels.sort(reverse=True)
+# print vowels
+print('Sorted list (in Descending):', vowels)
+# o/p: Sorted list (in Descending): ['u', 'o', 'i', 'e', 'a']
+
+

@@ -80,3 +80,54 @@ print('Count of 2 in T1 is:', res)      # o/p: Count of 2 in T1 is: 5
 # counting the appearance of java  
 res = T2.count('java')  
 print('Count of Java in T2 is:', res)   # o/p: Count of java in T2 is: 2
+
+
+
+my_tuple = ( 4, 2, 5, 6, 7, 5)
+print(my_tuple.index(5))        # o/p: 2
+
+# Creating tuples
+Tuple = ( 1, 3, 4, 2, 5, 6 )
+# getting the index of 3
+res = Tuple.index(3)
+print('Index of 3 is', res)     # o/p: Value of Index of 3 is 1
+
+
+# Creating tuples
+Tuple = ( 3, 3, 5, 7, 3, 3 )
+# getting the index of 3
+res = Tuple.index(3)
+print('Index of 3 is', res)     # o/p: Index of 3 is 0
+
+# alphabets tuple
+alphabets = ('G', 'e', 'e', 'k', 's', 'f', 'o',
+             'r', 'G', 'e', 'e', 'k', 's')
+# scans 'G' from index 4 to 10 and returns its index
+index = alphabets.index('G', 4, 10)
+print('Index of G in alphabets from index 4 to 10:', index)
+# o/p: Index of G in alphabets from index 4 to 10: 8
+
+
+t = ('G', 'F', 'G')
+# accessing element not present in the tuple
+print(t.index('i'))
+# o/p: ValueError: tuple.index(x): x not in tuple
+
+
+# Python program to show how to perform membership test for tuples    
+# Creating a tuple    
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Ordered")    
+# In operator    
+print('Tuple' in tuple_)            # o/p: True   
+print('Items' in tuple_)            # o/p: False  
+# Not in operator    
+print('Immutable' not in tuple_)    # o/p: False    
+print('Items' not in tuple_)        # o/p: True
+
+
+# Python program to show how to iterate over tuple elements    
+# Creating a tuple    
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable")    
+# Iterating over tuple elements using a for loop    
+for item in tuple_:    
+    print(item)

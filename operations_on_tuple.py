@@ -131,3 +131,83 @@ tuple_ = ("Python", "Tuple", "Ordered", "Immutable")
 # Iterating over tuple elements using a for loop    
 for item in tuple_:    
     print(item)
+
+
+
+
+# Python3 code to demonstrate working of Edit objects inside tuple Using Access Methods
+# initializing tuple
+test_tuple = (1, [5, 6, 4], 9, 10)
+# printing original tuple
+print("The original tuple : " + str(test_tuple))
+# o/p: The original tuple : (1, [5, 6, 4], 9, 10)
+# Edit objects inside tuple Using Access Methods
+test_tuple[1][2] = 14       
+# printing result
+print("The modified tuple : " + str(test_tuple))
+# o/p: The modified tuple : (1, [5, 6, 14], 9, 10)
+
+
+
+# Python3 code to demonstrate working of Edit objects inside tuple Using pop() + index()
+# initializing tuple
+test_tuple = (1, [5, 6, 4], 9, 10)
+# printing original tuple
+print("The original tuple : " + str(test_tuple))
+# o/p: The original tuple : (1, [5, 6, 4], 9, 10)
+# Edit objects inside tuple Using pop() + index()
+test_tuple[1].pop(2)
+test_tuple[1].insert(2, 14)    
+# printing result
+print("The modified tuple : " + str(test_tuple))
+# o/p: The modified tuple : (1, [5, 6, 14], 9, 10)
+
+
+
+
+# Initial tuple
+my_tuple = (1, 2, 3, 4, 5)
+# Convert the tuple to a list
+my_list = list(my_tuple)
+# Edit the list
+my_list[2] = 10
+# Convert the list back to a tuple
+my_tuple = tuple(my_list)
+# Print the updated tuple
+print(my_tuple)
+# o/p: (1, 2, 10, 4, 5)
+
+
+
+# Using lambda function to modify the tuple
+modify_tuple = lambda tup, index, new_val: tup[:index] + (new_val,) + tup[index+1:]
+# Example usage
+tup = (1, [5, 6, 4], 9, 10)
+new_tup = modify_tuple(tup, 1, [5, 6, 14])
+print(new_tup)
+# o/p: (1, [5, 6, 14], 9, 10)
+
+
+
+# Initial tuple
+my_tuple = (1, 2, 3, 4, 5)
+# Convert the tuple to a list
+my_list = list(my_tuple) 
+# Edit the list using slicing
+my_list[2:3] = [10]
+# Convert the list back to a tuple
+my_tuple = tuple(my_list)
+# Print the updated tuple
+print(my_tuple)     # o/p: (1, 2, 10, 4, 5)
+
+
+
+# Given input
+tpl = (1, [5, 6, 4], 9, 10)
+# Create a new tuple with the modified object
+modified_tpl = tpl[:1] + ([tpl[1][0], tpl[1][1], 14] + tpl[1][3:],) + tpl[2:]
+# Output
+print("The modified tuple:", modified_tpl)
+# o/p: The modified tuple: (1, [5, 6, 14], 9, 10)
+
+

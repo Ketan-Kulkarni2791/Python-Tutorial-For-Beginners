@@ -211,3 +211,28 @@ print("The modified tuple:", modified_tpl)
 # o/p: The modified tuple: (1, [5, 6, 14], 9, 10)
 
 
+# --------------------------------------- Unpack Tuple Items -------------------------------------
+
+t1 = (1 ,2)
+t1 = 1 ,2
+type (t1)       # o/p: <class 'tuple'>
+
+tup1 = (10,20,30)
+x, y, z = tup1
+print ("x: ", x, "y: ", "z: ",z)    # o/p: x: 10 y: 20 z: 30
+
+tup1 = (10,20,30)
+x, y = tup1             # o/p: ValueError: too many values to unpack (expected 2)
+x, y, p, q = tup1       # o/p: ValueError: not enough values to unpack (expected 4, got 3)
+
+tup1 = (10,20,30)
+x, *y = tup1
+print ("x: ", "y: ", y) # o/p: x: y: [20, 30]
+
+tup1 = (10,20,30, 40, 50, 60)
+x, *y, z = tup1
+print ("x: ",x, "y: ", y, "z: ", z)     # o/p: x: 10 y: [20, 30, 40, 50] z: 60
+
+tup1 = (10,20,30, 40, 50, 60)
+*x, y, z = tup1
+print ("x: ",x, "y: ", y, "z: ", z)     # o/p: x: [10, 20, 30, 40] y: 50 z: 60

@@ -31,6 +31,13 @@ while i < 4:
 else:  # Not executed as there is a break
     print("No Break")
     
+i = 0
+while i < 4:
+    i += 1
+    print(i)
+    break
+print("No Break")
+    
     
 # Initialize a counter
 count = 0

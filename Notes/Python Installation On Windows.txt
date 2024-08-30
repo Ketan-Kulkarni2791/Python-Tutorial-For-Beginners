@@ -1,0 +1,28 @@
+-- Python is a high-level programming language that has become increasingly popular due to its simplicity, versatility, and extensive range of applications. 
+   The process of How to install Python in Windows, operating system is relatively easy and involves a few uncomplicated steps.
+   
+**** How to Install Python in Windows?
+
+	To download Python on your system, you can use the following steps:
+	
+-- Step 1: Select Version to Install Python
+	> Visit the official page for Python https://www.python.org/downloads/ on the Windows operating system. 
+	> Locate a reliable version of Python 3, preferably version 3.10.11, which was used in testing this tutorial. 
+	> Choose the correct link for your device from the options provided: either Windows installer (64-bit) or Windows installer (32-bit) and proceed to download 
+	  the executable file.
+
+-- Step 2: Downloading the Python Installer
+	> Once you have downloaded the installer, open the .exe file, such as python-3.10.11-amd64.exe, by double-clicking it to launch the Python installer. 
+	> Choose the option to Install the launcher for all users by checking the corresponding checkbox, so that all users of the computer can access the Python launcher application.
+	> Enable users to run Python from the command line by checking the Add python.exe to PATH checkbox.
+	> After Clicking the Install Now Button the setup will start installing Python on your Windows system.
+	
+-- Step 3: Running the Executable Installer
+	> After completing the setup. Python will be installed on your Windows system. You will see a successful message.
+	
+-- Step 4:  Verify the Python Installation in Windows
+	> Close the window after successful installation of Python. 
+	> You can check if the installation of Python was successful by using either the command line or the Integrated Development Environment (IDLE), which you may have installed. 
+	> To access the command line, click on the Start menu and type “cmd” in the search bar. Then click on Command Prompt.
+
+		python --version

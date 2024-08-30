@@ -1,0 +1,4 @@
+-- PIP is a package management system used to install and manage software packages/libraries written in Python. PIP stands for Preferred Installer Program or Pip Installs Packages.
+-- We can install Python packages using the Python pip install command in Command Prompt.
+-- Installing pip in Windows is very easy. You just need to follow given steps to install pip and some additional steps to finally use it. By these steps we can see how to pip 
+   install on Windows.

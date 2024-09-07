@@ -1,0 +1,4 @@
+-- Python f-strings provide a quick way to interpolate and format strings.
+-- They’re readable, concise, and less prone to error than traditional string interpolation and formatting tools, such as the 
+   .format() method and the modulo operator (%).
+-- An f-string is also a bit faster than those tools!
